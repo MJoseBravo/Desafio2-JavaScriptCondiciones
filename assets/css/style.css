@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.presentacion {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px;
+}
+
+.presentacion a {
+    font-size: 30px;
+    margin-top: 30px;
+    text-decoration: none;
+}
+
+
+/*Borde*/
+img {
+    margin: 30px;
+}
+
+.border {
+    border: solid 2px red;
+}
+
+/*Stickers*/
+.venta {
+    display: flex;
+    justify-content: center;
+}
+
+.texto-sticker {
+    text-align: center;
+    margin: 30px;
+}
+
+.venta div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.venta input {
+    width: 100px; 
+}
+
+.total {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.btn {
+    margin-top: 30px;
+}
+
+/*Password*/
+.codigo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 200px;
+    border: solid 1px black;
+    gap: 20px;
+    margin: 40px;
+}
